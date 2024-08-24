@@ -19,9 +19,9 @@ local.properties
 
 lib/quasar.jar
 
-**/logs/*
 #will include a logs file which is written to by corda workers
-!logs/ 
+!logs/
+#**/logs/*
 
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
